@@ -1,148 +1,245 @@
-*{
-	margin:0;
-	padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-	width:100%;
-	height:100%;
-	font-family:arial;	
-	background-color:#101728;
-
+body {
+  width: 100%;
+  height: 100%;
+  font-family: arial;
+  background-color: #101728;
 }
-#container_img{
-	display:flex;
-	flex-direction:column;
-}
-
-#efeito{
-	width:80%;
-	postion:fixed;
-	
-}
-#logo{
-	margin-top:-55rem;
-	width:25rem;
-}
-main{
-	width:50%;
-	border:4px solid #fff;
-	margin:3% auto;
-	border-radius:0.5rem;
-	min-height:600px;
-	height:auto;
-	position:relative;
-	
+#container_img {
+  display: flex;
+  flex-direction: column;
 }
 
-h2{
-	text-align:center;
-	margin-top:20%;
-	font-size:4rem;
-	color:#fff;
-	opacity:20%;
-	font-family:dancing script;
-	
-	
-	
+#efeito {
+  width: 80%;
+  position: fixed;
+}
+#logo {
+  z-index: 1;
+  width: 20%;
+  position: fixed;
+}
+main {
+  width: 35%;
+  border: 4px solid #fff;
+  margin: 5% auto 0;
+  border-radius: 0.5rem;
+  min-height: 500px;
+  height: auto;
+  position: relative;
+  margin-bottom: 3rem;
 }
 
-#container{
-	width:98%;
-	margin:0.5rem auto;		
-	border-radius:0.5rem;
-	background-color:#fff;
-	
-}
-h1{
-	background-color:#8923EB;
-	color:#f5f5f5;
-	margin:auto;
-	text-align:center;
-	padding:1rem;
-	border-radius:0.3rem 0.3rem 0 0;
-}
-.adionar_tarefa{
-	width:90%;
-	margin:auto;
-	padding:0.7rem;
-	display:flex;
-	flex-direction:row;
-	align-items:center;
-	justify-content:center;
-	gap:0.5rem;
-
-}
-input{
-	width:60%;
-	padding:0.5rem;	
-	color:black;
-	border:2px solid black;
-	border-radius:0.5rem;
-}
-input::placeholder{
-	color:black;
-}
-input:hover{
-	background-color:#B0B5EB;
+h1 {
+  background-color: #8923eb;
+  color: #f5f5f5;
+  margin: auto;
+  text-align: center;
+  padding: 0.6rem;
+  border-radius: 0.3rem 0.3rem 0 0;
 }
 
-button{
-	padding:0.5rem;	
-	background-color:#B0B5EB;
-	font-weight:bold;
-	border-radius:0.5rem;
-	
-}
-button:hover{
-	background-color:#B9B0EB;
-}
-button:active{
-	background-color:#A0B0EB;
-}
-#tarefas{
-	width:95%;
-	margin: 1rem auto;
+h2 {
+  text-align: center;
+  margin-top: 20%;
+  font-size: 4rem;
+  color: #fff;
+  opacity: 20%;
+  font-family: "dancing script", cursive;
 }
 
-.div_task{
-	display:flex;
-	flex-direction:	row;
-	height:2rem;
-	margin-top:5px;	
-	justify-content:flex-start;
-	align-items:center;
-	font-size:1.2rem;
-	color:#fff;
-	
-		
-}
-.check{
-	width:3rem;
-	
-	
-}
-p{	
-	
-}
-.button_remove{
-	width:2%;
-	height:2%;
-	text-align:center;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	background-color:red;
-		
+#container {
+  width: 95%;
+  margin: 0.5rem auto auto;
+  border-radius: 0.5rem;
+  background-color: #fff;
 }
 
-footer{
-	background-color:#213;
-	color:#fff;
-	font-size:0.8rem;
-	position:fixed;
-	bottom:0;
-	width:100%;
-	text-align:center;
-	padding:1rem 0;
-	
+.adionar_tarefa {
+  width: 90%;
+  margin: 1rem auto;
+  padding: 0.6rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+input {
+  width: 60%;
+  padding: 0.5rem;
+  color: black;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+}
+input::placeholder {
+  color: black;
+}
+input:hover {
+  background-color: #b0b5eb;
+}
+
+button {
+  padding: 0.5rem;
+  background-color: #b0b5eb;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #b9b0eb;
+}
+button:active {
+  background-color: #a0b0eb;
+}
+#tarefas {
+  width: 95%;
+  margin: 1rem auto;
+}
+
+.div_task {
+  display: flex;
+  flex-direction: row;
+  min-height: 2rem;
+  height: auto;
+  margin-top: 5px;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #fff;
+  width: 100%;
+}
+.paragrafo {
+  width: 80%;
+  height: auto;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+.check {
+  width: 3rem;
+}
+
+.button_remove {
+  width: 1.2rem;
+  height: 1.2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 1rem;
+  margin-left: 0.5rem;
+}
+
+footer {
+  background-color: #213;
+  color: #fff;
+  font-size: 0.8rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/*smartphones (meédios)*/
+
+@media (max-width: 480px) {
+  #efeito {
+    width: 100%;
+  }
+
+  #logo {
+    width: 60%;
+    margin: auto 20%;
+  }
+  #container_img {
+    width: 100%;
+  }
+  main {
+    width: 70%;
+    margin: 40% auto;
+  }
+  .adionar_tarefa {
+    flex-direction: column;
+  }
+  footer {
+    padding: 3rem 0;
+    font-size: 1rem;
+  }
+}
+/*smartphone e alguns tablets*/
+@media (min-width: 481px) and (max-width: 810px) {
+  #efeito {
+    width: 100%;
+  }
+
+  #logo {
+    width: 60%;
+    margin: auto 20%;
+  }
+  #container_img {
+    width: 100%;
+  }
+  main {
+    width: 70%;
+    margin: 40% auto;
+  }
+  footer {
+    padding: 3rem 0;
+    font-size: 1rem;
+  }
+}
+/*tablets médios*/
+@media (min-width: 811px) and (max-width: 991px) {
+  #efeito {
+      width: 100%;
+    }
+  
+    #logo {
+      width: 40%;
+      margin: auto 30%;
+    }
+      #container_img {
+      width: 100%;
+    }
+    main {
+      width: 80%;
+      margin-top: 30%;
+    }
+    footer {
+        padding: 3rem 0;
+        font-size: 1rem;
+    }
+    
+}
+
+/*tablets grandes*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  #efeito {
+      width: 100%;
+    }
+  
+    #logo {
+      width: 35%;
+    }
+      #container_img {
+      width: 100%;
+    }
+    main {
+      width: 50%;
+      margin-top: 20%;
+    }
+    footer {
+        padding: 3rem 0;
+        font-size: 1rem;
+    }
+    
 }
