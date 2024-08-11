@@ -166,15 +166,24 @@ footer {
   main {
     width: 70%;
     margin: 40% auto;
+    min-height: 400px;
+  }
+  h1 {
+    font-size: 1.4rem;
+  }
+  h2 {
+    font-size: 2rem;
   }
   .adionar_tarefa {
     flex-direction: column;
+    padding: 0.7rem;
   }
   footer {
-    padding: 3rem 0;
+    padding: 2rem 0;
     font-size: 1rem;
   }
 }
+
 /*smartphone e alguns tablets*/
 @media (min-width: 481px) and (max-width: 810px) {
   #efeito {
@@ -200,46 +209,44 @@ footer {
 /*tablets médios*/
 @media (min-width: 811px) and (max-width: 991px) {
   #efeito {
-      width: 100%;
-    }
-  
-    #logo {
-      width: 40%;
-      margin: auto 30%;
-    }
-      #container_img {
-      width: 100%;
-    }
-    main {
-      width: 80%;
-      margin-top: 30%;
-    }
-    footer {
-        padding: 3rem 0;
-        font-size: 1rem;
-    }
-    
+    width: 100%;
+  }
+
+  #logo {
+    width: 40%;
+    margin: auto 30%;
+  }
+  #container_img {
+    width: 100%;
+  }
+  main {
+    width: 80%;
+    margin-top: 30%;
+  }
+  footer {
+    padding: 3rem 0;
+    font-size: 1rem;
+  }
 }
 
 /*tablets grandes*/
 @media (min-width: 992px) and (max-width: 1199px) {
   #efeito {
-      width: 100%;
-    }
-  
-    #logo {
-      width: 35%;
-    }
-      #container_img {
-      width: 100%;
-    }
-    main {
-      width: 50%;
-      margin-top: 20%;
-    }
-    footer {
-        padding: 3rem 0;
-        font-size: 1rem;
-    }
-    
+    width: 100%;
+  }
+
+  #logo {
+    width: 35%;
+  }
+  #container_img {
+    width: 100%;
+  }
+  main {
+    width: 50%;
+    margin-top: 20%;
+  }
+  footer {
+    padding: 3rem 0;
+    font-size: 1rem;
+  }
 }
