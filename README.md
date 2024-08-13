@@ -1,0 +1,2 @@
+VS List é um projeto criado pensando em facilitar a vida do usuário, o ajudando a organizar as suas tarefas do dia-a-dia.
+om um design moderno e responsivo o usuário pode anotar todas as tarefas do seu dia, como reúniões agendadas, compromissos, trabalhos escolares, tarefas do trabalho, etc, conforme vai concluindo cada atividade ele pode dar um "check" e ao fim do dia é possível ver todoas as atividades concluídas e se orgulhar de sua produtividade.
