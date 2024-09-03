@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VS LIST</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="login.css" />
+    <script src="script_login.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,27 +22,21 @@
         alt="efeito gráfico"
       />
       <img
-      src="https://github.com/bryansilvacm/VS-LIST/blob/main/logo.png?raw=true"
-      alt="Logo VS LIST" id="logo" >
+        src="https://github.com/bryansilvacm/VS-LIST/blob/main/logo.png?raw=true"
+        alt="Logo VS LIST" id="logo" >
     </div>
 
     <main>
       <div id="container">
-        <h1>Suas Tarefas</h1>
-
-        <div class="adionar_tarefa">
-          <input
-            type="text"
-            id="newtask"
-            name="newtask"
-            placeholder="Digite uma nova tarefa"
-          />
-          <button onclick="adicionar()">Adicionar</button>
-        </div>
+        <label>Nome de Usuário:</label>	
+        <input type="text" name="usuario" id="usuario">
+        <label>Senha:</label>
+        <input type="password" name="senha" id="senha">
       </div>
-      <h2 id="text">Se organize!</h2>
-      <section id="tarefas"></section>
+	
+      <button type="submit">Entrar</button>
     </main>
+
     <footer>Copyright &copy 2024 VS DEV SOLUTIONS</footer>
   </body>
 </html>
